@@ -1,10 +1,8 @@
 # Nucleotide-finder
 To find out number of purines and pyrimidines in DNA sequences
-# DNA sequence analyzer
 
 sequence = input("Enter a DNA sequence: ATGCCCTAA").strip().upper()
 
-# Remove whitespace and check for invalid characters
 sequence = "".join(sequence.split())
 valid_bases = set("ATCG")
 invalid_bases = set(sequence) - valid_bases
